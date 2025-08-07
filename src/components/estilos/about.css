@@ -1,0 +1,65 @@
+.about-section {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+  color: #1d1d1f;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0071e3;
+}
+
+.bio,
+.intereses {
+  font-size: 1.1rem;
+  color: #6e6e7e;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.cv-button {
+  display: inline-block;
+  background-color: #0071e3;
+  color: #ffffff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #005bb5;
+}
+
+.about-photo {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.about-photo img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0071e3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

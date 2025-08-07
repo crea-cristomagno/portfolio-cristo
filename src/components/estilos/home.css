@@ -1,0 +1,92 @@
+.home-container {
+  margin: 2%;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  color: #1d1d1f;
+  text-align: center;
+  padding: 4rem 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Fondo con olas sutiles */
+.home-container::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(
+      circle at 30% 30%,
+      rgba(0, 113, 227, 0.324),
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 70% 70%,
+      rgba(97, 68, 239, 0.308),
+      transparent 60%
+    );
+  z-index: 0;
+  animation: floatwaves 10s ease-in-out infinite alternate;
+}
+
+@keyframes floatwaves {
+  0% {
+    transform: translateY(0px) scale(1);
+  }
+  100% {
+    transform: translateY(-10px) scale(1.02);
+  }
+}
+
+.titulo {
+  font-size: 2.8rem;
+  margin-top: 1rem;
+  color: #0071e3;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.subtitulo {
+  font-size: 1.5rem;
+  color: #4c4c4c;
+  margin: 1rem 0;
+  max-width: 700px;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+.frase {
+  font-size: 1.1rem;
+  color: #1d1d1f;
+  max-width: 750px;
+  margin-top: 1.5rem;
+  line-height: 1.6;
+  padding: 0 1rem;
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #0071e3;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
