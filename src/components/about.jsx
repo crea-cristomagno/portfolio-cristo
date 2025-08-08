@@ -1,6 +1,7 @@
 import React from "react";
 import "./estilos/about.css";
 import "./estilos/tipografia.css";
+import perfil from "../assets/projectsimg/photo.jpg";
 
 function About() {
   return (
@@ -24,7 +25,7 @@ function About() {
           </a>
         </div>
         <div className="about-photo">
-          <img src="/photo.jpg" alt="Franco" />
+          <img src={perfil} alt="Franco" />
         </div>
       </div>
     </section>

@@ -1,16 +1,13 @@
 import React from "react";
 import "./estilos/tipografia.css";
 import "./estilos/home.css";
+import perfil from "../assets/projectsimg/photo.jpg";
 
 function Home() {
   return (
     <section id="home">
       <div className="home-container">
-        <img
-          src="/photo.jpg"
-          alt="foto ilustrativa"
-          className="profile-photo"
-        />
+        <img src={perfil} alt="foto ilustrativa" className="profile-photo" />
         <h1 className="titulo">Cristian Franco</h1>
         <h2 className="subtitulo">
           Ingeniero en Sistemas Computacionales y Técnico en Programación
