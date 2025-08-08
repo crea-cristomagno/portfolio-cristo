@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-cristo/static/css/main.1a061e36.css",
-    "main.js": "/portfolio-cristo/static/js/main.d3ae7391.js",
+    "main.js": "/portfolio-cristo/static/js/main.5e487b6a.js",
+    "static/media/photo.jpg": "/portfolio-cristo/static/media/photo.0c77082e28e8a91ee7f6.jpg",
     "static/media/diploms.jpeg": "/portfolio-cristo/static/media/diploms.bc5f06ecd737a6000897.jpeg",
     "static/media/arcadia1.jpeg": "/portfolio-cristo/static/media/arcadia1.14cb347506944e2d2924.jpeg",
     "static/media/languages.jpeg": "/portfolio-cristo/static/media/languages.3c2a6f60cb8e51a1bcc7.jpeg",
@@ -13,10 +14,10 @@
     "static/media/stweb1.jpeg": "/portfolio-cristo/static/media/stweb1.d86e714f9378355905ac.jpeg",
     "index.html": "/portfolio-cristo/index.html",
     "main.1a061e36.css.map": "/portfolio-cristo/static/css/main.1a061e36.css.map",
-    "main.d3ae7391.js.map": "/portfolio-cristo/static/js/main.d3ae7391.js.map"
+    "main.5e487b6a.js.map": "/portfolio-cristo/static/js/main.5e487b6a.js.map"
   },
   "entrypoints": [
     "static/css/main.1a061e36.css",
-    "static/js/main.d3ae7391.js"
+    "static/js/main.5e487b6a.js"
   ]
 }
