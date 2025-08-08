@@ -1,7 +1,7 @@
 import React from "react";
 import "./estilos/tipografia.css";
 import "./estilos/home.css";
-import perfil from "../assets/projectsimg/photo.jpg";
+import perfil from "../assets/photo.jpg";
 
 function Home() {
   return (
