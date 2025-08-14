@@ -76,7 +76,7 @@ export const Contact = () => {
         <h3>Conecta conmigo</h3>
         <div className="social-icons">
           <a
-            href="https://www.linkedin.com/in/tuusuario"
+            href="https://www.linkedin.com/in/cristian-franco-lazaro-0a273a35a"
             title="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
@@ -84,7 +84,7 @@ export const Contact = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/tuusuario"
+            href="https://github.com/CristoMagno"
             title="GitHub"
             target="_blank"
             rel="noopener noreferrer"
@@ -92,7 +92,7 @@ export const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href="https://instagram.com/tuusuario"
+            href="https://instagram.com/cristianprime00"
             title="Instagram"
             target="_blank"
             rel="noopener noreferrer"
@@ -100,7 +100,7 @@ export const Contact = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://facebook.com/tuusuario"
+            href="https://www.facebook.com/profile.php?id=61577081548675&viewas=100000686899395"
             title="Facebook"
             target="_blank"
             rel="noopener noreferrer"
@@ -108,7 +108,7 @@ export const Contact = () => {
             <FaFacebook />
           </a>
           <a
-            href="https://twitter.com/tuusuario"
+            href="https://twitter.com/@Cristo_Magno"
             title="Twitter"
             target="_blank"
             rel="noopener noreferrer"
